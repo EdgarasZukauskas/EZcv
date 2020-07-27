@@ -1,0 +1,1069 @@
+html, body {
+  background-color: rgb(10, 25, 47);
+  color: #FFFFFF;
+  font-family: 'Source Code Pro';
+  cursor:default;
+  margin:0;
+}
+
+.appear {
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.codeEnter {
+  padding: 5px 10px;
+  height: 45px;
+  font-size: 30px;
+  line-height: 45px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #AAB7B8;
+  width: 400px;
+  outline: none;
+  background-color: inherit;
+  margin: auto;
+  display: block;
+  color: transparent;
+  text-shadow: 0 0 0 #FFFFFF;
+  font-family: 'Roboto';
+}
+
+.codeEnter::placeholder{
+  color: rgb(136, 146, 176);
+  text-shadow: none;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.incorrectCode {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.telPhone {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.topNavigation {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 15px 0px 15px 0px;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  background-color: rgb(10, 25, 47);
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
+  width: 100%;
+  z-index: 3;
+}
+
+.menuItem {
+  padding: 0px 20px 0px 20px;
+  color:#FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: crosshair;
+}
+
+.menuItem:hover {
+  color:#AAB7B8;
+}
+
+.menuItemActive {
+  color:#AAB7B8;
+}
+
+.menuItemNumber {
+    color: rgb(100, 255, 218);
+}
+
+.menuShare {
+  border: 1px solid rgb(100, 255, 218);
+  border-radius: 6px;
+  padding: 7px 20px 7px 20px;
+  margin-right: 30px;
+}
+
+.menuShare:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+  color:#FFFFFF;
+}
+
+.menuShare.showShareButton {
+  background-color: rgba(100, 255, 218, 0.07);
+  color:#FFFFFF;
+}
+
+#start {
+  min-height: 75vh;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.container {
+  min-height: 70vh;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstLine {
+  margin-top:50px;
+  font-family: 'Source Code Pro';
+  color: rgb(100, 255, 218);
+  font-size: 20px;
+}
+
+.secondLine {
+  font-family: 'Roboto';
+  color: rgb(204, 214, 246);
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.thirdLine {
+  font-family: 'Roboto';
+  color: rgb(136, 146, 176);
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.fourthLine {
+  max-width: 50%;
+  font-family: 'Roboto';
+  color: rgb(136, 146, 176);
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  line-height: 35px;
+}
+
+.aboutButton{
+  height: 50px;
+  width: 150px;
+  border: 1px solid rgb(100, 255, 218);
+  color: rgb(100, 255, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: crosshair;
+}
+
+.aboutButton:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.credentials {
+  color: blue;
+  position: fixed;
+  bottom: 155px;
+  right: 80px;
+  writing-mode: vertical-rl;
+  color: rgb(100, 255, 218);
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  cursor: crosshair;
+}
+
+.credentials:hover {
+  color: rgb(136, 146, 176);
+}
+
+.credentialsLine {
+  border-left: 1px solid white;
+  height: 145px;
+  position: fixed;
+  bottom: 0px;
+  right: 90px;
+  cursor: crosshair;
+}
+
+.aboutMeLeft {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header {
+  color: rgb(204, 214, 246);
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.headerNumber {
+  color: rgb(100, 255, 218);
+  font-family: 'Source Code Pro';
+  font-size: 22px;
+  padding-right: 20px;
+}
+
+.aboutMeText {
+  font-family: 'Roboto';
+  color: rgb(136, 146, 176);
+  font-size: 17px;
+  line-height: 35px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.aboutMeRight {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.myPhoto {
+  width: 80%;
+  border-radius: 3px;
+}
+
+.careerButton{
+  height: 50px;
+  width: 200px;
+  border: 1px solid rgb(100, 255, 218);
+  color: rgb(100, 255, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 80px auto 0px auto;
+  cursor: crosshair;
+}
+
+.careerButton:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.narrowRow {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.careerJobs {
+  display: flex;
+}
+
+.jobList {
+  flex: 1;
+  width: 20%;
+}
+
+.jobListItem {
+  cursor: crosshair;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 15px;
+  padding-bottom: 2px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: rgb(48, 60, 85);
+  font-family: 'Source Code Pro';
+  font-size: 13px;
+  color: rgb(136, 146, 176);
+}
+
+.jobListItem:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+  color: rgb(100, 255, 218);
+}
+
+.jobListItemActive {
+  color: rgb(100, 255, 218);
+  border-left-color: rgb(100, 255, 218);
+}
+
+.jobText {
+  width: 75%;
+}
+
+.jobTitle {
+  color: rgb(204, 214, 246);
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.jobTitleComapny {
+  color: rgb(100, 255, 218);
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.jobDates {
+  font-size: 15px;
+  color: rgb(136, 146, 176);
+  margin-bottom: 20px;
+}
+
+.jobDescription {
+  list-style-type: disc;
+  font-size: 15px;
+  color: rgb(136, 146, 176);
+  font-family: 'Roboto';
+  line-height: 30px;
+}
+
+.examplesButton{
+  height: 50px;
+  width: 200px;
+  border: 1px solid rgb(100, 255, 218);
+  color: rgb(100, 255, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 50px auto 0px auto;
+  cursor: crosshair;
+}
+
+.examplesButton:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.codeImg {
+  filter: grayscale(90%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display:block;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.codeImg:hover {
+  filter: none;
+}
+
+.exampleLink {
+  cursor: crosshair;
+  text-decoration: none;
+}
+
+.exampleLinkImgR {
+  filter: invert(80%);
+  max-height: 30px;
+  padding: 10px 0px 10px 20px;
+}
+
+.exampleLinkImgL {
+  filter: invert(80%);
+  max-height: 30px;
+  padding: 10px 20px 10px 0px;
+}
+
+.exampleImageRight {
+  display: inline-block;
+  max-width: 60%;
+  float: left;
+}
+
+.exampleImageLeft {
+  display: inline-block;
+  max-width: 60%;
+  float: right;
+}
+
+.exampleDescriptionRight {
+  display: inline-block;
+  max-width: 40%;
+  float: right;
+}
+
+.exampleDescriptionLeft {
+  display: inline-block;
+  max-width: 40%;
+  float: left;
+}
+
+.exampleDescriptionNameRight {
+  text-align: right;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(204, 214, 246);
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.exampleDescriptionNameLeft {
+  text-align: left;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(204, 214, 246);
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.exampleDescriptionTextRight {
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+  background-color: rgb(23, 42, 69);
+  color: rgb(168, 178, 209);
+  width: 500px;
+  text-align: right;
+  padding: 20px 10px;
+  z-index: 2;
+  position: relative;
+  float: right;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.exampleDescriptionTextLeft {
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+  background-color: rgb(23, 42, 69);
+  color: rgb(168, 178, 209);
+  width: 500px;
+  text-align: left;
+  padding: 20px 10px;
+  z-index: 2;
+  position: relative;
+  float: left;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.exampleDescriptionLanguagesRight {
+  font-size: 13px;
+  font-weight: 100;
+  word-spacing: 15px;
+  text-align: right;
+  color: rgb(136, 146, 176);
+  margin-bottom: 30px;
+}
+
+.exampleDescriptionLanguagesLeft {
+  font-size: 13px;
+  font-weight: 100;
+  word-spacing: 15px;
+  text-align: left;
+  color: rgb(136, 146, 176);
+  margin-bottom: 30px;
+}
+
+.codeImgMobileRight {
+  display:none;
+}
+
+.codeImgMobileLeft {
+  display:none;
+}
+
+.exampleDescriptionHyperlinksRight {
+  text-align: right;
+}
+
+.exampleDescriptionHyperlinksLeft {
+  text-align: left;
+}
+
+.examplesContainer {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  display: inline-block;
+}
+
+.letsTalkButton{
+  height: 50px;
+  width: 200px;
+  border: 1px solid rgb(100, 255, 218);
+  color: rgb(100, 255, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 0px auto 0px auto;
+  cursor: crosshair;
+}
+
+.letsTalkButton:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.contacts {
+  width: 59%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contactsBox {
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+  background-color: rgb(23, 42, 69);
+  width: 80%;
+  padding: 20px 20px 20px 20px;
+}
+
+.contactsLinkedin {
+  font-family: 'Roboto';
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.contactsEmail {
+  font-family: 'Roboto';
+  color: rgb(136, 146, 176);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.contactsPhone {
+  font-family: 'Roboto';
+  color: rgb(136, 146, 176);
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.contactsIcon {
+  filter: invert(80%);
+  max-height: 30px;
+  padding: 10px 20px 10px 0px;
+  cursor: crosshair;
+}
+
+.sms {
+  width: 39%;
+  display: inline-block;
+  flex: 1;
+  margin: auto;
+}
+
+.smsField {
+  width: 80%;
+}
+
+.smsText {
+  background-color: rgb(10, 25, 47);
+  border: 1px solid rgb(100, 255, 218);
+  border-radius: 4px;
+  color: rgb(100, 255, 218);
+  font-family: 'Roboto';
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.smsText::placeholder{
+  color:#AAB7B8;
+}
+
+.smsTextButton{
+  height: 30px;
+  width: 100px;
+  border: 1px solid rgb(100, 255, 218);
+  color: rgb(100, 255, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 20px auto 0px auto;
+  cursor: crosshair;
+  font-size: 12px;
+}
+
+.smsTextButton:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+  color: rgb(100, 255, 218);
+}
+
+.smsTextButtonSent {
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.letsTalk {
+  margin-top: 100px;
+  display: flex;
+}
+
+.shareCV {
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+  background-color: rgb(23, 42, 69);
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  position: fixed;
+  top: 90px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
+.shareCV.displayShare {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+
+.shareEmailInput {
+  padding: 5px 5px;
+  font-size: 20px;
+  line-height: 30px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px;
+  border-left: 0px;
+  border-style: solid;
+  border-color: #AAB7B8;
+  outline: none;
+  background-color: inherit;
+  color: transparent;
+  text-shadow: 0 0 0 #FFFFFF;
+  z-index: 3;
+}
+
+.shareEmailInput::placeholder {
+  font-family: 'Roboto';
+  color: rgb(136, 146, 176);
+  text-shadow: none;
+}
+
+.shareEmailSend {
+  filter: invert(50%);
+  max-height: 30px;
+  cursor: crosshair;
+  padding-left: 5px;
+}
+
+.shareEmailSend:hover {
+  filter: invert(90%);
+}
+
+.share {
+  display: none;
+}
+
+@media (max-width: 749px){
+
+  .codeEnter {
+    width: 90%;
+    margin-top: 300px;
+  }
+
+  .container {
+    min-height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .topNavigation {
+    display: none;
+  }
+
+  .credentials {
+    display: none;
+  }
+
+  .row {
+      width: 90%;
+  }
+
+  #start {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .firstLine {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+
+  .secondLine {
+    font-size: 30px;
+  }
+
+  .thirdLine {
+    font-size: 30px;
+  }
+
+  .fourthLine {
+    max-width: 90%;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    line-height: 20px;
+  }
+
+  .aboutButton {
+    height: 30px;
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 10px;
+  }
+
+  .aboutMeLeft {
+    width: 100%;
+  }
+
+  .aboutMeText {
+    font-size: 15px;
+    line-height: 30px;
+    text-align: none;
+  }
+
+  .aboutMeRight {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .careerButton{
+    display: none;
+  }
+
+  #career {
+    margin-top: 150px;
+  }
+
+  .narrowRow {
+    width: 100%;
+  }
+
+  .careerJobs {
+    display: block;
+  }
+
+  .jobList {
+    display: flex;
+    overflow-x: scroll;
+    width: calc(100% + 0px);
+    position: relative;
+  }
+
+  .jobListItem {
+    display: inline-grid;
+    overflow-y: scroll;
+    border-left-width: 0px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(48, 60, 85);
+    font-size: 12px;
+  }
+
+  .jobListItemActive {
+    border-left-color: none;
+    border-bottom-color: rgb(100, 255, 218);
+  }
+
+  .jobText {
+    width: 100%;
+  }
+
+  .jobTitle {
+    line-height: 35px;
+    margin-top:30px;
+  }
+
+  .examplesButton {
+    display: none;
+  }
+
+  #example {
+    margin-top: 150px;
+  }
+
+  .examplesContainer {
+    display:unset;
+  }
+
+  .exampleImageRight {
+    display:none;
+  }
+
+  .exampleImageLeft {
+    display:none;
+  }
+
+  .codeImgMobileRight {
+    display: block;
+    margin-left: auto;
+    width: 300px;
+    text-align: right;
+    filter: grayscale(70%);
+  }
+
+  .codeImgMobileLeft {
+    display: block;
+    margin-right: auto;
+    width: 300px;
+    text-align: left;
+    filter: grayscale(70%);
+  }
+
+  .exampleDescriptionRight {
+    display: inline-block;
+    max-width: 100%;
+    float: unset;
+    margin-top: 30px;
+  }
+
+  .exampleDescriptionLeft {
+    display: inline-block;
+    max-width: 100%;
+    float: unset;
+    margin-top: 30px;
+  }
+
+  .exampleDescriptionNameRight {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .exampleDescriptionNameLeft {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .exampleDescriptionTextRight{
+    width: unset;
+    box-shadow: none;
+    background-color: unset;
+    margin-bottom: 0px;
+  }
+
+  .exampleDescriptionTextLeft{
+    width: unset;
+    box-shadow: none;
+    background-color: unset;
+    margin-bottom: 0px;
+  }
+
+  .exampleDescriptionLanguagesRight {
+    margin-top: 20px;
+  }
+
+  .exampleDescriptionLanguagesLeft {
+    margin-top: 20px;
+  }
+
+  .exampleDescriptionHyperlinksRight {
+    text-align: right;
+  }
+
+  .exampleDescriptionHyperlinksLeft {
+    text-align: left;
+  }
+
+  .letsTalkButton {
+    display:none;
+  }
+
+  #letsTalk {
+    margin-top: 150px;
+  }
+
+  .letsTalk {
+    display: inline-block;;
+    margin-top: 0px;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .contactsBox {
+    width: 90%;
+  }
+
+  .contactsLinkedin {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .contactsEmail {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .contactsPhone {
+    font-size: 15px;
+  }
+
+  .sms {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .smsField {
+    margin: auto;
+  }
+
+  .smsText {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .share {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+  }
+
+  .shareIcon {
+    height: 40px;
+    opacity: 0.5;
+  }
+
+  .shareIconActive{
+    filter: invert(100%);
+  }
+
+  .shareCV {
+    top: unset;
+    bottom: 90px;
+    right: 10px;
+    width: 270px;
+  }
+
+  .shareEmailSend {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width:750px) and (max-width:949px){
+  .topNavigation {
+    display: none;
+  }
+
+  .credentials {
+    display: none;
+  }
+
+  .narrowRow {
+    width: 100%;
+  }
+
+  .letsTalk {
+    display: inline-block;;
+    margin-top: 0px;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .contactsBox {
+    width: 100%;
+  }
+
+  .contactsLinkedin {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .contactsEmail {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .contactsPhone {
+    font-size: 15px;
+  }
+
+  .sms {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .smsField {
+    margin: auto;
+  }
+
+  .smsText {
+    padding: 5px 5px 5px 5px;
+  }
+
+  .share {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+  }
+
+  .shareIcon {
+    height: 40px;
+    opacity: 0.5;
+  }
+
+  .shareIconActive{
+    filter: invert(100%);
+  }
+
+  .shareCV {
+    top: unset;
+    bottom: 90px;
+    right: 10px;
+    width: 270px;
+  }
+
+  .shareEmailSend {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width:950px) and (max-width:1100px){
+  .credentials {
+    display: none;
+  }
+}
