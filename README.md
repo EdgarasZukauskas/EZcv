@@ -1,1 +1,1 @@
-# EZcv
+Web purpose is to show my programming skills. PHP with mysql used to log visitor access and personalize content. Javascript used to log visitor time spent on the webpage and for other ui solutions. SMS api used to send sms messages directly from website. All code is written from scratch except two jQuery functions.
